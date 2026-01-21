@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- SEO -->
+  <title>Trusted HVAC Experts in Dania Beach, FL | Famous Cool Air</title>
+  <meta name="description" content="Famous Cool Air provides fast, reliable AC repair, HVAC installation, and commercial air conditioning services in Dania Beach, FL and across South Florida. Same-day service available.">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#020617',
+            accent: '#FF7A18',
+            slateLight: '#CBD5E1',
+            highlight: '#22D3EE',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-white text-primary">
+
+<!-- HEADER -->
+<header class="border-b border-slate-200 bg-primary">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="text-2xl font-extrabold text-white">
+      Famous <span class="text-accent">Cool Air</span>
+    </div>
+
+    <div class="hidden md:flex items-center gap-6">
+      
+      <a href="https://famouscoolair.com/contact/"
+         class="px-5 py-2 rounded-lg bg-accent text-primary font-semibold hover:bg-highlight transition">
+        Schedule Service
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="bg-primary py-20">
+  <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center">
+
+    <!-- LEFT -->
+    <div>
+      <span class="inline-block mb-4 px-4 py-1 rounded-full bg-white/10 text-highlight text-sm font-semibold">
+        Local HVAC Experts in South Florida
+      </span>
+
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+        Reliable Air Conditioning & HVAC Services in
+        <span class="text-accent">Dania Beach, FL</span>
+      </h1>
+
+      <p class="mt-6 text-lg text-slateLight max-w-xl">
+        Famous Cool Air delivers fast, dependable HVAC solutions for homes and businesses
+        across Dade, Broward, and Palm Beach Counties. From emergency AC repairs to full
+        system installations, our licensed technicians are ready to help.
+      </p>
+
+      <div class="mt-8 flex gap-4 flex-wrap">
+        <a href="https://famouscoolair.com/" class="hero-btn-primary">
+          Get a Free Estimate
+        </a>
+        <a href="tel:+19548721723" class="hero-btn-secondary">
+          Call Now
+        </a>
+      </div>
+
+      <div class="mt-10 grid sm:grid-cols-3 gap-6 text-sm text-slateLight">
+        <div class="flex items-center gap-3">
+          <span class="text-highlight text-xl">✔</span>
+          <span>Licensed & Insured</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="text-highlight text-xl">✔</span>
+          <span>Same-Day Service</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="text-highlight text-xl">✔</span>
+          <span>Upfront Pricing</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="relative">
+      <img
+        src="https://famouscoolair.com/wp-content/uploads/2025/10/steptodown.com672087-1024x683.jpg"
+        alt="HVAC Services in Dania Beach FL"
+        class="rounded-2xl shadow-xl w-full object-cover"
+      >
+
+      <div class="absolute bottom-6 left-6 bg-white rounded-xl px-5 py-3 shadow-lg">
+        <p class="text-primary font-bold">10+ Years Experience</p>
+        <p class="text-slate-500 text-sm">Serving South Florida</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- BUTTON STYLES -->
+<style>
+.hero-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 2rem;
+  background-color: #FF7A18;
+  color: #020617;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 18px rgba(255, 122, 24, 0.35);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.hero-btn-primary:hover {
+  background-color: #22D3EE;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(34, 211, 238, 0.4);
+}
+.hero-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 2rem;
+  border: 2px solid #22D3EE;
+  color: #22D3EE;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.hero-btn-secondary:hover {
+  background-color: #22D3EE;
+  color: #020617;
+  transform: translateY(-2px);
+}
+</style>
+
+<!-- FOOTER -->
+<footer class="bg-primary text-slateLight py-10 text-center border-t border-white/10">
+  <p>© <span id="year"></span> Famous Cool Air. All Rights Reserved.</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<!-- ABOUT US -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center">
+
+    <!-- IMAGE -->
+    <div class="relative">
+      <img
+        src="https://famouscoolair.com/wp-content/uploads/2025/10/commercial-hvac-1024x682.jpg"
+        alt="Professional HVAC technicians in Dania Beach FL"
+        class="rounded-2xl shadow-xl w-full object-cover"
+      >
+    </div>
+
+    <!-- CONTENT -->
+    <div>
+      <span class="inline-block mb-4 px-4 py-1 rounded-full bg-primary/5 text-highlight text-sm font-semibold">
+        About Famous Cool Air
+      </span>
+
+      <h2 class="text-3xl md:text-4xl font-extrabold text-primary leading-tight">
+        A Community-Focused HVAC Company You Can Trust
+      </h2>
+
+      <p class="mt-6 text-lg text-slate-600">
+        Famous Cool Air is a locally owned and operated HVAC company proudly serving
+        Dania Beach and the greater South Florida area. With over a decade of hands-on
+        experience, we specialize in reliable air conditioning solutions designed for
+        Florida’s demanding climate.
+      </p>
+
+      <p class="mt-4 text-slate-600">
+        From beachfront condos to commercial facilities, our licensed technicians
+        deliver honest recommendations, transparent pricing, and workmanship that
+        stands the test of time.
+      </p>
+
+      <div class="mt-8 grid sm:grid-cols-2 gap-6 text-sm">
+        <div class="flex items-center gap-3">
+          <span class="text-accent text-xl">✔</span>
+          <span>Family-Owned & Operated</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="text-accent text-xl">✔</span>
+          <span>Licensed & Insured Professionals</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="text-accent text-xl">✔</span>
+          <span>Serving Dade, Broward & Palm Beach</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="text-accent text-xl">✔</span>
+          <span>100% Satisfaction Guarantee</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- SERVICES -->
+<section class="bg-primary py-20">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- SECTION HEADER -->
+    <div class="text-center max-w-3xl mx-auto">
+      <span class="inline-block mb-4 px-4 py-1 rounded-full bg-white/10 text-highlight text-sm font-semibold">
+        Our Services
+      </span>
+
+      <h2 class="text-3xl md:text-4xl font-extrabold text-white">
+        Complete HVAC Services for Homes & Businesses
+      </h2>
+
+      <p class="mt-6 text-lg text-slateLight">
+        Whether you need a quick repair or a full system installation, Famous Cool Air
+        provides efficient, dependable HVAC services tailored to South Florida properties.
+      </p>
+    </div>
+
+    <!-- SERVICE CARDS -->
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- CARD -->
+      <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+        <h3 class="text-xl font-bold text-primary mb-3">AC Repair</h3>
+        <p class="text-slate-600 mb-5">
+          Fast diagnosis and expert AC repair to restore comfort and efficiency when you
+          need it most.
+        </p>
+        <a href="https://famouscoolair.com/services/ac-repair/" class="text-accent font-semibold hover:text-highlight">
+          Learn More →
+        </a>
+      </div>
+
+      <!-- CARD -->
+      <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+        <h3 class="text-xl font-bold text-primary mb-3">AC Installation</h3>
+        <p class="text-slate-600 mb-5">
+          Professional air conditioning installations designed for long-term performance
+          and energy savings.
+        </p>
+        <a href="https://famouscoolair.com/services/ac-installation/" class="text-accent font-semibold hover:text-highlight">
+          Learn More →
+        </a>
+      </div>
+
+      <!-- CARD -->
+      <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+        <h3 class="text-xl font-bold text-primary mb-3">Commercial HVAC</h3>
+        <p class="text-slate-600 mb-5">
+          Reliable commercial air conditioning solutions to keep your business comfortable
+          and productive.
+        </p>
+        <a href="https://famouscoolair.com/services/commercial-air-conditioning/" class="text-accent font-semibold hover:text-highlight">
+          Learn More →
+        </a>
+      </div>
+
+      <!-- CARD -->
+      <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+        <h3 class="text-xl font-bold text-primary mb-3">Ductless Mini-Splits</h3>
+        <p class="text-slate-600 mb-5">
+          Energy-efficient ductless systems offering flexible comfort control for any space.
+        </p>
+        <a href="https://famouscoolair.com/services/ductless-mini-split/" class="text-accent font-semibold hover:text-highlight">
+          Learn More →
+        </a>
+      </div>
+
+      <!-- CARD -->
+      <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+        <h3 class="text-xl font-bold text-primary mb-3">Ductwork Installation</h3>
+        <p class="text-slate-600 mb-5">
+          Custom ductwork solutions to improve airflow, efficiency, and indoor air quality.
+        </p>
+        <a href="https://famouscoolair.com/services/ductwork-installation/" class="text-accent font-semibold hover:text-highlight">
+          Learn More →
+        </a>
+      </div>
+
+      <!-- CARD -->
+      <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+        <h3 class="text-xl font-bold text-primary mb-3">Smart Thermostats</h3>
+        <p class="text-slate-600 mb-5">
+          Upgrade your comfort with smart thermostat installation for precision control
+          and savings.
+        </p>
+        <a href="https://famouscoolair.com/services/smart-thermostat/" class="text-accent font-semibold hover:text-highlight">
+          Learn More →
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- AREAS WE SERVE -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center">
+
+    <!-- LEFT CONTENT -->
+    <div>
+      <span class="inline-block mb-4 px-4 py-1 rounded-full bg-primary/5 text-highlight text-sm font-semibold">
+        Areas We Serve
+      </span>
+
+      <h2 class="text-3xl md:text-4xl font-extrabold text-primary">
+        Proudly Serving South Florida
+      </h2>
+
+      <p class="mt-6 text-lg text-slate-600">
+        Famous Cool Air provides fast, reliable HVAC and air conditioning services across
+        Dade, Broward, and Palm Beach Counties. Click your city below to learn more
+        about our local services.
+      </p>
+
+      <!-- LOCATION LIST -->
+      <div class="mt-8 grid sm:grid-cols-2 gap-4 location-links">
+
+        <a href="https://famouscoolair.com/hialeah-fl/">Hialeah, FL</a>
+        <a href="https://famouscoolair.com/sunrise-fl/">Sunrise, FL</a>
+        <a href="https://famouscoolair.com/pembroke-pines-fl/">Pembroke Pines, FL</a>
+        <a href="https://famouscoolair.com/miramar-fl/">Miramar, FL</a>
+        <a href="https://famouscoolair.com/delray-beach-fl/">Delray Beach, FL</a>
+        <a href="https://famouscoolair.com/hallandale-beach-fl/">Hallandale Beach, FL</a>
+        <a href="https://famouscoolair.com/boca-raton-fl/">Boca Raton, FL</a>
+        <a href="https://famouscoolair.com/pompano-beach-fl/">Pompano Beach, FL</a>
+        <a href="https://famouscoolair.com/hollywood-fl/">Hollywood, FL</a>
+        <a href="https://famouscoolair.com/fort-lauderdale-fl/">Fort Lauderdale, FL</a>
+
+      </div>
+
+      <p class="mt-6 text-sm text-slate-500">
+        Don’t see your city listed? Contact us to confirm same-day HVAC service near you.
+      </p>
+    </div>
+
+    <!-- RIGHT MAP -->
+    <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-200">
+      <iframe
+        src="https://www.google.com/maps?q=249%20S%20Federal%20Hwy%2C%20Dania%20Beach%2C%20FL&output=embed"
+        width="100%"
+        height="420"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<!-- LOCATION LINK STYLES -->
+<style>
+.location-links a {
+  display: block;
+  padding: 14px 18px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  color: #020617;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.location-links a:hover {
+  background: #020617;
+  color: #22D3EE;
+  border-color: #22D3EE;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(34, 211, 238, 0.25);
+}
+</style>
+
+<!-- CTA -->
+<section class="bg-primary py-20">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+
+    <h2 class="text-3xl md:text-4xl font-extrabold text-white">
+      Need Fast, Reliable HVAC Service in South Florida?
+    </h2>
+
+    <p class="mt-6 text-lg text-slateLight">
+      Whether it’s an emergency AC repair or a new system installation,
+      Famous Cool Air is ready to help—same-day service available.
+    </p>
+
+    <div class="mt-10 flex flex-wrap justify-center gap-6">
+      <a href="tel:+19548721723" class="cta-btn-primary">
+        Call (954) 872-1723
+      </a>
+      <a href="https://famouscoolair.com/" class="cta-btn-secondary">
+        Request Service Online
+      </a>
+    </div>
+
+    <p class="mt-6 text-sm text-slateLight">
+      Licensed • Insured • 100% Satisfaction Guaranteed
+    </p>
+  </div>
+</section>
+
+<!-- CTA BUTTON STYLES -->
+<style>
+.cta-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 2.5rem;
+  background-color: #FF7A18;
+  color: #020617;
+  font-weight: 700;
+  border-radius: 0.9rem;
+  box-shadow: 0 10px 26px rgba(255, 122, 24, 0.4);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.cta-btn-primary:hover {
+  background-color: #22D3EE;
+  box-shadow: 0 14px 32px rgba(34, 211, 238, 0.45);
+  transform: translateY(-3px);
+}
+.cta-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 2.5rem;
+  border: 2px solid #22D3EE;
+  color: #22D3EE;
+  font-weight: 700;
+  border-radius: 0.9rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.cta-btn-secondary:hover {
+  background-color: #22D3EE;
+  color: #020617;
+  transform: translateY(-3px);
+}
+</style>
+
+</body>
+</html>
